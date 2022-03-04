@@ -1,0 +1,66 @@
+.navlinks {
+  text-decoration: none;
+}
+
+.navbar {
+  justify-content: flex-end;
+  background-color: #ffff;
+  font-size: 1rem;
+  font-family: "Avontuurgardegoshikkutai-5Doa";
+}
+
+a {
+  text-decoration: none;
+  margin: 5px;
+  color: rgb(0, 0, 0);
+}
+.btn{
+  border-radius: 3rem;
+}
+.btn-dark{
+  color: #ffff!important;
+}
+.btn-dark:hover{
+  background-color: #ffff;
+  color: rgb(0, 0, 0)!important;
+}
+#main{
+  position: relative;
+}
+#app {
+  /* font-family: "Avontuurgardegoshikkutai-5Doa"; */
+  background-image: url(/public/Home-art.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+.app{
+  
+}
+#man{
+  background-image: url(/public/Manifesto.png);
+  background-size: cover;
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+.fa-brands{
+  vertical-align: -webkit-baseline-middle;
+  margin: 8px;
+}
+.icons{
+  padding-top: 8px;
+}
+@media (max-width:592px){
+  #app {
+    /* font-family: "Avontuurgardegoshikkutai-5Doa"; */
+    background-image: url(/public/Home-art-mobile.png);
+    /* background-size: 100%;
+    background-repeat: no-repeat;
+    position:fixed;
+    width:100%;
+    height:100%; */
+  }
+}

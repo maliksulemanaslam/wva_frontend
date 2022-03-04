@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: "Hangyaku-gxGG5";
+  /* background-image: url("/Home-art.png"); */
+}
+@font-face {
+  font-family: "Avontuurgardegoshikkutai-5Doa";
+  src: local("Avontuurgardegoshikkutai-5Doar"),
+    url("./fonts/Avontuurgardegoshikkutai-5Doa.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Hangyaku-gxGG5";
+  src: local("Hangyaku-gxGG5"),
+    url("./fonts/Hangyaku-gxGG5.ttf") format("truetype");
+  font-weight: normal;
+}
